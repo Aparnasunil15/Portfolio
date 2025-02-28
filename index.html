@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome website script to enable fonts -->
+    <script src="https://kit.fontawesome.com/7264dcfac4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+             <nav>
+                <img src="images/logo.png" class= "logo" alt="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Business Research Analyst</p>
+                <h1>Hi, I am <span>Aparna Sunil</span> <br> from Kerala, India.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------about-------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/take2.jpg" alt="a picture of me">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Detail-oriented Business Analyst with a background in Mathematics and Data Science. Skilled in data analysis, machine learning, and research, with experience in LLM model evaluation and quality assurance. Passionate about deriving insights from data to drive strategic decisions. Currently working at Turing, leveraging analytical skills to enhance AI-driven solutions.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>AI/ML</span><br>Creating Machine learning models</li>
+                            <li><span>Data Science</span><br>Curating the data for ML models</li>
+                            <li><span>Data Analysis</span><br>Understanding insights from data</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Present</span><br>Business Research Analyst</li>
+                            <li><span>2023 - 2024</span><br>Junior Data Scientist</li>
+                    
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024 - 2026</span><br>MCA_NEW</li>
+                            <li><span>2020 - 2023</span><br>BSc Mathematics</li>
+                            <!-- <li><span>Data Scientist</span><br>Curating the data for ML models</li>
+                            <li><span>Data Analyst</span><br>Understanding insights from data</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------services-------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-brain"></i>
+                    <h2>AI & LLM Evaluation & QA</h2>
+                    <p>I specialize in evaluating AI models, ensuring accurate and relevant outputs through rigorous prompt engineering and validation. My expertise includes content analysis, model optimization, and improving AI-generated responses for better performance and reliability.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                    <h2>Data Analysis & Visualization</h2>
+                    <p>Using tools like Power BI and Excel, I analyze complex datasets to uncover trends and insights. My expertise in statistical analysis helps businesses make data-driven decisions through clear and impactful visualizations.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-table"></i>
+                    <h2>Business Research & Market Analysis</h2>
+                    <p>I conduct in-depth market research, competitor analysis, and AI-driven trend forecasting. By leveraging data insights, I help businesses stay ahead of market shifts and make informed strategic decisions.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------portfolio-------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/logo.png" alt="Image">
+                    <div class="layer">
+                        <h3> AI-Powered Market Trend Analysis & Demand Forecasting</h3>
+                        <p>This project leverages AI and data analytics to identify market trends, predict demand patterns, and provide actionable business insights. Using Power BI and statistical models, it helps businesses make informed decisions based on real-time and historical data.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/logo.png" alt="Image">
+                    <div class="layer">
+                        <h3>Quantitative-Market-Trend-Analysis</h3>
+                        <p>This project focuses on using statistical and data-driven methods to analyze market trends and patterns. By leveraging quantitative techniques, such as time series analysis and regression modeling, I extract meaningful insights from large datasets. The goal is to provide businesses with accurate, data-backed predictions to support strategic decision-making and market positioning.</p>
+                        <a href="https://github.com/Aparnasunil15/Quantitative-Market-Trend-Analysis"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/logo.png" alt="Image">
+                    <div class="layer">
+                        <h3>Accidental Death Analysis – Power BI Dashboard</h3>
+                        <p>This Power BI dashboard visualizes trends in accidental deaths, highlighting key factors such as causes, demographics, and geographical patterns. It enables data-driven insights for identifying high-risk areas and potential preventive measures.</p>
+                        <a href="https://github.com/Aparnasunil15/Drug-related-death"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ----------------contact-------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>appzparna2002@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 7558098752</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/aparna-sunil-230aa4201/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Aparnasunil15"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="https://github.com/Aparnasunil15/Resume" target="_blank" class="btn btn2">Download Resume</a>
+
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" placeholder="Your email" required>
+                        <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+             <p>Copyright C </p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
